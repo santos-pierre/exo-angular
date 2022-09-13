@@ -1,0 +1,14 @@
+<h1>Product Cart</h1>
+
+<input type="text" [(ngModel)]="productName">
+<button (click)="addProduct()">Add Product</button>
+
+<h3 *ngIf="products.length === 0">No Products In the List</h3>
+
+<ul>
+	<li *ngFor="let product of products" class="product-item">
+		<span>ID : {{ product.id }}</span>
+		<span>Name : {{ product.name }}</span>
+		<button (click)="removeProduct(product.id)">X</button>
+	</li>
+</ul>

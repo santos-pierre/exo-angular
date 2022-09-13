@@ -1,0 +1,7 @@
+<h1>Spoiler Alert</h1>
+
+<button (click)="spoil = !spoil">{{ spoil ? 'Cacher' : 'Spoil'}}</button>
+
+<p *ngIf="spoil; else elseBlock" [ngClass]="{'secret': spoil}">Bambi est pas mort à la fin</p>
+
+<ng-template #elseBlock>Rien à voir</ng-template>
