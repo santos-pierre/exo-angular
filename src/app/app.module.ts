@@ -10,6 +10,8 @@ import { MenuComponent } from './exos/menu/menu.component';
 import { ShoppingComponent } from './exos/shopping/shopping.component';
 import { FormsModule } from '@angular/forms';
 import { AccordeonComponent } from './exos/accordeon/accordeon.component';
+import { ShoppingListPlusComponent } from './shopping-list-plus/shopping-list-plus.component';
+import { ShoppingItemComponent } from './shopping-list-plus/shopping-item/shopping-item.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { AccordeonComponent } from './exos/accordeon/accordeon.component';
     SpoilComponent,
     MenuComponent,
     ShoppingComponent,
-		AccordeonComponent
+		AccordeonComponent,
+		ShoppingListPlusComponent,
+		ShoppingItemComponent
   ],
   imports: [
     BrowserModule,
