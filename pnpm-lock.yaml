@@ -19,6 +19,7 @@ specifiers:
   karma-coverage: ~2.2.0
   karma-jasmine: ~5.1.0
   karma-jasmine-html-reporter: ~2.0.0
+  nanoid: ^4.0.0
   rxjs: ~7.5.0
   tslib: ^2.3.0
   typescript: ~4.7.2
@@ -33,6 +34,7 @@ dependencies:
   '@angular/platform-browser': 14.2.12_dax2jypo47bpgiczdvqsh7iq24
   '@angular/platform-browser-dynamic': 14.2.12_6cqhozsvdfqcnce26piw2go6r4
   '@angular/router': 14.2.12_z2kexjtwwhydf5pzw2zqeskyey
+  nanoid: 4.0.0
   rxjs: 7.5.7
   tslib: 2.4.1
   zone.js: 0.11.8
@@ -4896,6 +4898,12 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: true
+
+  /nanoid/4.0.0:
+    resolution: {integrity: sha512-IgBP8piMxe/gf73RTQx7hmnhwz0aaEXYakvqZyE302IXW3HyVNhdNGC+O2MwMAVhLEnvXlvKtGbtJf6wvHihCg==}
+    engines: {node: ^14 || ^16 || >=18}
+    hasBin: true
+    dev: false
 
   /needle/3.2.0:
     resolution: {integrity: sha512-oUvzXnyLiVyVGoianLijF9O/RecZUf7TkBfimjGrLM4eQhXyeJwM6GeAWccwfQ9aa4gMCZKqhAOuLaMIcQxajQ==}
